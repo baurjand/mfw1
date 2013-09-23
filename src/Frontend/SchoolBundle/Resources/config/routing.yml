@@ -1,0 +1,6 @@
+school_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: SchoolBundle:Default:index }
+school_main:
+    pattern:  /available-school/{name}
+    defaults: { _controller: SchoolBundle:School:index }

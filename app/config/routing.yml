@@ -1,0 +1,8 @@
+store:
+    resource: "@StoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+school:
+    resource: "@SchoolBundle/Resources/config/routing.yml"
+    prefix:   /
+

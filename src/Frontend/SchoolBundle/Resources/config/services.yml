@@ -1,0 +1,7 @@
+parameters:
+#    school.example.class: Frontend\SchoolBundle\Example
+
+services:
+    school_ser:
+        class: Frontend\SchoolBundle\Helper\UtilityHelper
+        arguments: [@doctrine.orm.entity_manager]
